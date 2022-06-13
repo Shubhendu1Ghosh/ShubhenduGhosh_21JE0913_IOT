@@ -1,6 +1,6 @@
 
 #include<SoftwareSerial.h>
-SoftwareSerial mySerial(2,3);
+SoftwareSerial mySerial();
 #include<dht.h>
 #define dht_dpin 7; 
 dht DHT;
